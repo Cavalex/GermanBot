@@ -63,4 +63,4 @@ client.on('message', message => {
 
 // must stay on the last line
 // don't mess with this code
-client.login('NzY3ODg3ODUxNzkwMjcwNDY0.X44dSg.4ySVPvKKESk4BbZvHNapu9qY2vI');
+client.login('NzY3ODg3ODUxNzkwMjcwNDY0.X44dSg.t6ScSZha1ltEuQytQgjD5iOLGjo');
