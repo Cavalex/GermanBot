@@ -8,14 +8,15 @@ module.exports = {
     execute(message, args){
         message.channel.send(
 `Comandos:
-!g help
-!g comida
-!g boracs
-!g boralol
-!g lol
-!g ping
-!g pong
-!g gay
+!!help
+!!comida
+!!boracs
+!!boralol
+!!lol
+!!ping
+!!pong
+!!gay
+!!calma
 **e mais a chegar!**`);
         /*
         fs.readdir("./commands/", (err, files) => {

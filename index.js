@@ -4,7 +4,7 @@ const client = new Discord.Client(); // the bot
 
 //const prefix = '!';
 // space in front of ger for the prefix
-const prefix = '!g ';
+const prefix = '!!';
 
 const fs = require('fs');
 
@@ -40,6 +40,9 @@ client.on('message', message => {
     }
     else if(command === 'pong'){
         client.commands.get('pong').execute(message, args)
+    }
+    else if(command === 'calma'){
+        client.commands.get('calma').execute(message, args)
     }
     else if(command === 'comida'){
         client.commands.get('comida').execute(message, args)
