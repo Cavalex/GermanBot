@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 
 const client = new Discord.Client(); // the bot
+const token; // your token here
 
 //const prefix = '!';
 // space in front of ger for the prefix
@@ -66,4 +67,4 @@ client.on('message', message => {
 
 // must stay on the last line
 // don't mess with this code
-client.login('NzY3ODg3ODUxNzkwMjcwNDY0.X44dSg.t6ScSZha1ltEuQytQgjD5iOLGjo');
+client.login(token);
